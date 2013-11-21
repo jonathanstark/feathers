@@ -21,7 +21,9 @@ module Feathers
                   :danger_element,
                   :info_element,
                   :success_element,
-                  :warning_element
+                  :warning_element,
+                  :black,
+                  :white
 
       attr_writer :light_1,
                   :light_2,
@@ -42,7 +44,9 @@ module Feathers
                   :danger_element,
                   :info_element,
                   :success_element,
-                  :warning_element
+                  :warning_element,
+                  :black,
+                  :white
 
       def set_defaults
         @light_1 = "#efefef"
@@ -65,6 +69,8 @@ module Feathers
         @info_element = "#448ccb"
         @success_element = "#7ba900"
         @warning_element = "#ffb76b"
+        @black = "#000"
+        @white = "#fff"
       end
 
     end
