@@ -4,7 +4,7 @@ require "feathers/version"
 
 Gem::Specification.new do |s|
   s.name        = "feathers"
-  s.version     = Feathers::Rails::VERSION
+  s.version     = Feathers::VERSION
   s.authors     = ["Kelli Shaver"]
   s.email       = ["kelli@kellishaver.com"]
   s.homepage    = "https://github.com/kellishaver/feathers"
