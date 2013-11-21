@@ -70,11 +70,9 @@ module Feathers
         @success_element = "#7ba900"
         @warning_element = "#ffb76b"
         @black = "#000"
-        @white = "#fff"
+        @white = "#000"
       end
 
     end
   end
 end
-
-Feathers::Config.set_defaults
