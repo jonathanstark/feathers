@@ -50,11 +50,11 @@ module Feathers
 
       def set_defaults
         @light_1 = "#efefef"
-        @light_2 = "#eee"
-        @medium_1 = "#ddd"
-        @medium_2 = "#ccc"
-        @dark_1 = "#aaa"
-        @dark_2 = "#777"
+        @light_2 = "#ddd"
+        @medium_1 = "#ccc"
+        @medium_2 = "#aaa"
+        @dark_1 = "#777"
+        @dark_2 = "#444"
         @highlight = "#ffe"
         @notice_border = "#9fda7f"
         @notice_background = "#faffeb"
@@ -64,13 +64,13 @@ module Feathers
         @error_background = "#ffebeb"
         @note_border = "#ddd"
         @note_background = "#efefef"
-        @default_element = "#999"
+        @default_element = "#ccc"
         @danger_element = "#cf0404"
         @info_element = "#448ccb"
         @success_element = "#7ba900"
-        @warning_element = "#ffb76b"
+        @warning_element = "#f3a24d"
         @black = "#000"
-        @white = "#000"
+        @white = "#fff"
       end
 
     end
