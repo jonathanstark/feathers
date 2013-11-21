@@ -10,14 +10,14 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/kellishaver/feathers"
   s.summary     = %q{Lightweight CSS boilerplate with sensible defaults}
   s.description = %q{Feathers is a minimalist CSS reset and boilerplate with optional rules that can be 'layered in' to apply sensible defaults to common widgets, such as navigation, forms, buttons, and menus}
+  s.license     = "MIT"
 
-# s.rubyforge_project = "feathers"
+  s.rubyforge_project = "feathers"
 
   s.files         = `git ls-files`.split("\n")
-# s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
 
   s.add_dependency "rails", ">= 3.0", "< 4.1.0"
-  s.add_development_dependency "bundler", "~> 1.3"
-  s.add_development_dependency "rake"
+  #s.add_development_dependency "bundler", "~> 1.3"
+  #s.add_development_dependency "rake"
 end

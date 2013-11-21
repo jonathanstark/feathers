@@ -9,13 +9,9 @@ module Feathers
                   :dark_1,
                   :dark_2,
                   :highlight,
-                  :notice_border,
                   :notice_background,
-                  :warning_border,
                   :warning_background,
-                  :error_border,
                   :error_background,
-                  :note_border,
                   :note_background,
                   :default_element,
                   :danger_element,
@@ -32,13 +28,10 @@ module Feathers
                   :dark_1,
                   :dark_2,
                   :highlight,
-                  :notice_border,
                   :notice_background,
                   :warning_border,
                   :warning_background,
-                  :error_border,
                   :error_background,
-                  :note_border,
                   :note_background,
                   :default_element,
                   :danger_element,
@@ -56,14 +49,10 @@ module Feathers
         @dark_1 = "#777"
         @dark_2 = "#444"
         @highlight = "#ffe"
-        @notice_border = "#9fda7f"
-        @notice_background = "#faffeb"
-        @warning_border = "#47c0ff"
-        @warning_background = "#d8f2ff"
-        @error_border = "#f1afaf"
+        @notice_background = "#ecffd6"
+        @warning_background = "#fbefb9"
         @error_background = "#ffebeb"
-        @note_border = "#ddd"
-        @note_background = "#efefef"
+        @note_background = "#d8f2ff"
         @default_element = "#ccc"
         @danger_element = "#cf0404"
         @info_element = "#448ccb"

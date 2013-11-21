@@ -42,6 +42,19 @@ a:hover {
   text-align:left;
 }
 
+blockquote {
+  border-left:3px solid <%= Feathers::Config.medium_1 %>;
+  color:<%= Feathers::Config.dark_2 %>;
+  margin:0 1em 0.5em 1em;
+  padding:1em;
+  cite {
+    display:block;
+    text-align:right;
+    font-style:italic;
+    font-weight:bold;
+  }
+}
+
 body {
   background-color:<%= Feathers::Config.white %>;
   font-family:helvetica, arial, sans-serif;
